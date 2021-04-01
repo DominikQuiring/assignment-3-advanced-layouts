@@ -1,12 +1,12 @@
 # assignment-3-advanced-layouts
 
-##Introduction
+## Introduction
 
 Assignment 2 is a two-page, fully responsive build with a sticky header, horizontal scrolling content, a parallax scroll background, and semantic forms. 
 
 All SVG images are provided in the assets folder. The student is required to obtain the other images, color values, fonts, and measurements from the PSD. The completed site must demonstrate well-formed and structured HTML markup while writing clear and efficient CSS.The layout and styles will best match the PSD and adjust to different screen sizes using fluid and fixed layout techniques, and media queries. CSS properties used should have high global browser support (Edge, Firefox, Chrome, Safari, etc.) and the site will need to properly display on all screen widths starting at 320px wide.
 
-##Instructions
+## Instructions
 Following the steps of a build methodology:
 
 1. Using your own choice of a CSS reset, and a standard framework folder, start by defining and marking up the content for the home page. Check the logic, and the hierarchy of the document structure in the HTML5 outliner tool. Other than nav elements, there should be no untitled sections. Create the HTML file for the second page, “How it Works”, and copy and paste both the header and footer content into the new page. Ensure that the pages can link to each other. Add the HTML markup for the second page.
@@ -26,5 +26,7 @@ The typography is consistence throughout both pages, therefore, there is an adva
 
 For any clarification or questions, please ask your instructor.
 
-##Submission
+## Submission
 Push the assignment files to the GitHub Classroom assignment before the due date. Commits completed after the due date will be ingored.
+
+## This assignment is worth 20% of your final mark. See the assignment files on Moodle for a full marking guid.
