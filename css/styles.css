@@ -1,1 +1,39 @@
-/* developer styles go here */
+.header_bg {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 6px 0px rgba(234, 237, 239, 0.004);
+}
+
+.divider {
+    border-width: 1px;
+    border-color: rgb(211, 211, 211);
+    border-style: solid;
+}
+  
+.nav-links li a:link {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(52, 66, 86);
+    font-weight: bold;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+label {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:link {
+    font-family: 'Source Sans Pro', sans-serif;
+}
