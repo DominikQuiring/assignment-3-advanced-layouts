@@ -3,12 +3,33 @@
     box-shadow: 0px 3px 6px 0px rgba(234, 237, 239, 0.004);
 }
 
+header {
+    padding: 2%;
+    position: relative;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 0.625rem;
     margin-left: 1.5rem;
+}
+
+header nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out;
+    position: absolute;
+    top: 95px;
+    left: 0;
+    background-color: #fff;
+    width: 100vw;
+    z-index: 1;
+}
+
+.show-nav {
+    max-height: 350px;
 }
 
 .header-container button {
@@ -121,4 +142,27 @@ a:link {
 
 .footer-bg p {
     color: #ffffff;
+}
+
+@media only screen and (min-width: 35rem) {
+    .hamburger-btn {
+        display: none;
+    }
+
+    /* we want to see the nav, so give it it's height back */
+    header nav {
+        max-height: 5rem;
+        overflow: visible;
+        /* change the position back to static and 
+        width auto is the content width*/
+        position: static;
+        width: auto;
+    }
+
+    /* change the layout of the nav items */
+    .menu,
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
 }
