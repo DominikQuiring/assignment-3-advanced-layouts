@@ -2,14 +2,12 @@ h1 {
     color: #344256;
     font-size: 2.25rem;
     font-family: 'Poppins', sans-serif;
-    margin-left: 1.5rem;
 }
 
 h2 {
     color: #ffffff;
     font-size: 2.25rem;
     font-family: 'Poppins', sans-serif;
-    margin-left: 1.5rem;
 }
 
 h3 {
@@ -26,7 +24,6 @@ h4 {
 
 h5 {
     font-size: 1.125rem;
-    margin-left: 1.5rem;
     color: #344256;
     font-family: 'Poppins', sans-serif;
 }
@@ -35,12 +32,16 @@ p {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #1a212b;
-    margin-left: 1.5rem;
 }
 
 label {
     font-family: 'Source Sans Pro', sans-serif;
-} 
+}
+
+.content {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
 
 a:link {
     font-family: 'Source Sans Pro', sans-serif;
@@ -53,7 +54,6 @@ a:link {
 }
 
 header {
-    padding: 2%;
     position: relative;
 }
 
@@ -104,13 +104,11 @@ section:nth-of-type(2) p{
     background-color: rgb(243, 217, 0);
     width: 194px;
     height: 59px;
-    margin-left: 1.5rem;
 }  
 
 .white-bg {
     border-radius: 10px;
     background-color: #ffffff;
-    margin: 0 24px 0 24px;
 }
 
 .white-bg p {
@@ -152,7 +150,7 @@ hr.solid {
     border-style: solid;
 }
   
-.nav-links li a:link {
+.nav-links > li > a:link {
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
     color: #344256;
@@ -168,6 +166,9 @@ hr.solid {
     justify-content: center;
   }
   
+li {
+    list-style-type: none;
+}
 
 .footer-bg {
     background-color: #344256;
@@ -198,5 +199,4 @@ hr.solid {
     hr {
         visibility: hidden;
     }
-
 }
