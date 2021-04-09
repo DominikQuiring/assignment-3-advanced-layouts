@@ -103,6 +103,8 @@ hr.solid {
 section:first-of-type {
     background-color: #ffffff;
     height: 220px;
+    display: flex;
+    align-items: center;
 }
 
 section:nth-of-type(2) {
