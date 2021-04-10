@@ -171,9 +171,14 @@ a:visited {
     width: 110px;
 }
 
-section:nth-of-type(5) {
-    background-color: #344256;
+section:nth-of-type(4) {
+    background-color: #eaedef;
 }
+
+section:nth-of-type(4) img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} 
 
 .card {
     border-radius: 10px;
@@ -183,6 +188,11 @@ section:nth-of-type(5) {
 
 .card-content {
     margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+section:nth-of-type(5) {
+    background-color: #344256;
 }
   
 li {
@@ -209,6 +219,16 @@ footer li a {
 
 /********** How it works **********/
 
+.bg-img {
+    background-image: url("../img/form-bg-sm.jpeg");
+    background-repeat: no-repeat;
+    height: 237px;
+}
+
+form p {
+    padding-left: 0.75rem;
+}
+
 fieldset {
     border: none;
 }
@@ -217,10 +237,15 @@ label {
     display: block;
 }
 
-input,
+form input,
 textarea {
+    border-width: 1px;
+    border-color: rgb(193, 196, 198);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #fff;
     width: 100%;
-    border-radius: 5px;
+    height: 40px;
 }
 
 .flex-container {
