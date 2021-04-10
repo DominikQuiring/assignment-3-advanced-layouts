@@ -141,6 +141,7 @@ section:nth-of-type(2) {
 .white-bg a {
     text-decoration: 2px underline #f3d900;
     font-weight: bold;
+    text-underline-offset: 6px;
 }
 
 a:visited {
@@ -205,6 +206,7 @@ footer li a {
 
 .email-link a {
     text-decoration: 2px underline #f3d900;
+    text-underline-offset: 6px;
 }
 
 .footer-bg {
