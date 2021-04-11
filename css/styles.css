@@ -267,6 +267,20 @@ input[type="submit"] {
     color: #344256;
 }
 
+@media only screen and (min-width: 750px) and (max-width: 1159px) {
+    .card {
+        max-width: 43.875; /* 702px */
+        display: flex;
+    }
+
+    picture {
+        flex: 0 1 52.7%;
+    }
+
+    .card-content {
+        flex: 1 1 47%;
+    }
+}
 
 @media only screen and (min-width: 1160px) {
     .hamburger-btn {
@@ -288,6 +302,11 @@ input[type="submit"] {
     
     hr {
         visibility: hidden;
+    }
+
+    section:nth-of-type(4) {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     /******** how it works ******/
