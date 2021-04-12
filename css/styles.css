@@ -209,6 +209,8 @@ footer li a {
     text-underline-offset: 6px;
 }
 
+
+
 .footer-bg {
     background-color: #344256;
     padding-top: 2.125rem;
@@ -225,6 +227,7 @@ footer li a {
     background-image: url("../img/form-bg-sm.jpeg");
     background-repeat: no-repeat;
     height: 237px;
+    display: flex;
 }
 
 form p {
@@ -267,6 +270,16 @@ input[type="submit"] {
     color: #344256;
 }
 
+footer .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 75%;
+}
+
 @media only screen and (min-width: 750px) and (max-width: 1159px) {
     .card {
         max-width: 43.875; /* 702px */
@@ -306,8 +319,9 @@ input[type="submit"] {
 
     section:nth-of-type(4) {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row-reverse;
     }
+    
 
     /******** how it works ******/
 
