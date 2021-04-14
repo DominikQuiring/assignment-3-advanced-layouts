@@ -239,7 +239,7 @@ section:nth-of-type(5) {
     background-color: #344256;
 }
 
-section:last-of-type input {
+section:nth-of-type(5) input {
     margin-top: 30px;
     margin-bottom: 48px;
 }
@@ -391,6 +391,12 @@ footer .content div {
         height: 340px;
         width: 340px;
     }
+
+    section:nth-of-type(4) img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    } 
 
     .img-logo {
         height: 10%;
