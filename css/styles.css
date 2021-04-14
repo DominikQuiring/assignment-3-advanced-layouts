@@ -56,6 +56,12 @@ a:link {
 
 header {
     position: relative;
+    align-items: center;
+    line-height: 80px;
+}
+
+header img {
+    margin-top: -40px;
 }
 
 .header-container {
@@ -76,6 +82,7 @@ header nav {
     background-color: #fff;
     width: 100vw;
     z-index: 1;
+    margin-right: 40px;
 }
 
 hr.solid {
@@ -99,6 +106,7 @@ hr.solid {
 .header-container button {
     background: none;
     border: none;
+    margin-top: 8px;
 }
 
 section:first-of-type {
@@ -270,6 +278,11 @@ footer li a {
 
 /********** How it works **********/
 
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .bg-img {
     background-image: url("../img/form-bg-sm.jpeg");
     background-repeat: no-repeat;
@@ -298,11 +311,7 @@ textarea {
     background-color: #fff;
     width: 100%;
     height: 40px;
-}
-
-.flex-container {
-    display: flex;
-    flex-flow: row wrap;
+    margin-bottom: 30px;
 }
 
 input[type="submit"] {
@@ -412,6 +421,10 @@ footer .content div {
 }
 
 @media only screen and (min-width: 1160px) {
+    header img {
+        margin-top: 0;
+    }
+
     .hamburger-btn {
         display: none;
     }
