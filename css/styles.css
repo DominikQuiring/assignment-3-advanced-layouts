@@ -159,32 +159,23 @@ a:visited {
 }
 
 .scroll-area {
-    background-color: #ffffff;
-    height: 407px;
     display: flex;
-    overflow: scroll;
-    justify-content: space-around center;
-    padding: 5px;
     align-items: center;
+    overflow: scroll;
+    /* this hides the scrollbar in FireFox */
+    scrollbar-width: none;
+    height: 300px;
 }
 
-.scroll-area div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.scroll-area::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
 }
-
-.scroll-area div div{
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 10px;
-}
-
 
 .scroll-area > div {
-    flex: 0 0 220px;
-    height: 220px;
+    flex: 0 0 330px;
 }
+
 
 .scroll-area img {
     margin-right: 5px;
@@ -304,6 +295,21 @@ footer .content div {
 }
 
 @media only screen and (min-width: 750px) and (max-width: 1159px) {
+
+    section:nth-of-type(2) .content{
+        display: flex;
+    }
+
+    .heading-container {
+        min-width: 200px;
+        max-width: 330px;
+    }
+
+    .card-container {
+        max-width: 480px;
+    }
+
+
     .card {
         max-width: 43.875; /* 702px */
         display: flex;
@@ -351,9 +357,10 @@ footer .content div {
         visibility: hidden;
     }
 
-    section:nth-of-type(4) {
-        display: flex;
-        flex-direction: row-reverse;
+  
+
+    footer .content div {
+        width: 25%;
     }
     
 
