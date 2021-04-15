@@ -211,6 +211,7 @@ section:nth-of-type(4) h1 {
     padding-top: 48px;
 }
 
+
 section:nth-of-type(4) p {
     margin-bottom: 30px;
 }
@@ -281,7 +282,7 @@ footer li a {
     margin-left: -40px;
 }
 
-.email-link ul li:last-of-type {
+.footer-link:last-of-type li:last-of-type {
     text-decoration: 2px underline #f3d900;
     text-underline-offset: 6px;
 }
@@ -303,11 +304,6 @@ footer li a {
     margin-top: 50px;
 }
 
-.flex-container {
-    display: flex;
-    flex-flow: row wrap;
-}
-
 .flex-container div div {
     margin-right: 50px;
     margin-bottom: 25px;
@@ -323,10 +319,6 @@ footer li a {
 
 .bg-img .content h1 {
     padding-top: 80px;
-}
-
-form p {
-    padding-left: 0.75rem;
 }
 
 fieldset {
@@ -370,7 +362,7 @@ footer .content {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     overflow: none;
 }
 
@@ -389,6 +381,7 @@ footer .content {
 footer .content div {
     width: 100%;
 }
+
 @media only screen and (max-width: 749px) {
     .card-container {
         margin-top: 1.5rem;
@@ -534,6 +527,11 @@ footer .content div {
         display: flex;
     }
 
+    .content {
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+    }
+
     .card-container {
         display: flex;
         flex-direction: column;
@@ -557,10 +555,14 @@ footer .content div {
 
     }
 
-    section:nth-of-type(4) .card {
+    .card:first-of-type {
+        width: 33%;
+    }
+
+    .card:nth-of-type(2) {
         width: 370px;
-        margin-left: 0.75rem;
-        margin-right: 0.75rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 
     section:nth-of-type(5) input {
@@ -598,6 +600,8 @@ footer .content div {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
     }
 
     fieldset div {
@@ -612,6 +616,7 @@ footer .content div {
     .flex-container div div{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     textarea {
