@@ -115,6 +115,19 @@ section:first-of-type {
     display: flex;
     align-items: center;
 }
+section:first-of-type button {
+    background-color: rgb(52, 66, 86);
+  }
+  
+
+input[type="search"] {
+    border-width: 1px;
+    border-color: rgb(52, 66, 86);
+    border-style: solid;
+    border-radius: 10px;
+    height: 39px;
+    width: 100%;
+}
 
 section:nth-of-type(2) {
     background-color: #344256;
@@ -226,7 +239,7 @@ section:nth-of-type(4) .yellow-btn {
 
 .card-content h3 {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .card-content p {
@@ -250,6 +263,13 @@ section:nth-of-type(5) {
 section:nth-of-type(5) input {
     margin-top: 30px;
     margin-bottom: 48px;
+    border-width: 2px;
+    border-color: rgb(234, 237, 239);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 37px;
+    width: auto;
 }
   
 li {
@@ -357,6 +377,10 @@ footer .content div {
     h1, h2 {
         font-size: 48px;
     }
+
+    .button-in input[type="search"] {
+        width: 100%;
+    }
       
     .card {
         max-width: 43.875; /* 702px */
@@ -406,6 +430,10 @@ footer .content div {
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
     } 
+
+    section:nth-of-type(5) input {
+        width: 683px;
+    }
 
     .img-logo {
         height: 10%;
@@ -481,6 +509,10 @@ footer .content div {
         flex-direction: row;
     }
 
+    section:nth-of-type(5) input {
+        width: 570px;
+    }
+
     .white-bg {
         border-radius: 10px;
         margin: 0.75rem;
@@ -516,5 +548,10 @@ footer .content div {
 
     fieldset div {
         flex: 0 1 49%
+    }
+
+    .flex-container div {
+        display: flex;
+        flex-direction: row;
     }
 }
