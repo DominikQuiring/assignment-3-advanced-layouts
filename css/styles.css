@@ -110,7 +110,6 @@ header nav {
 
 section:first-of-type {
     background-color: #ffffff;
-    height: 220px;
     display: flex;
     align-items: center;
 }
@@ -126,6 +125,7 @@ input[type="search"] {
     border-radius: 10px;
     height: 39px;
     width: 100%;
+    margin-bottom: 48px;
 }
 
 section:nth-of-type(2) {
@@ -305,7 +305,7 @@ footer li a {
 }
 
 .flex-container div div {
-    margin-right: 50px;
+    margin-right: 15px;
     margin-bottom: 25px;
 }
 
@@ -328,6 +328,12 @@ fieldset {
 label {
     display: block;
 }
+
+form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+  
 
 form input,
 textarea {
@@ -473,10 +479,15 @@ footer .content div {
     fieldset div {
         flex: 0 1 49%
     }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
 
     .flex-container div {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .flex-container div div{
@@ -608,6 +619,11 @@ footer .content div {
         flex: 0 1 49%
     }
 
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
     .flex-container div {
         display: flex;
         flex-direction: row;
@@ -616,7 +632,6 @@ footer .content div {
     .flex-container div div{
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     textarea {
