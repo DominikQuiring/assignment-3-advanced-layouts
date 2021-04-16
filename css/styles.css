@@ -303,6 +303,10 @@ footer li a {
 
 /********** How it works **********/
 
+section:first-of-type p {
+    padding-bottom: 48px;
+}
+
 .flex-container div div {
     margin-right: 15px;
 }
@@ -312,7 +316,6 @@ footer li a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 235px;
-    margin-top: 75px;
 }
 
 .bg-img .content h1 {
