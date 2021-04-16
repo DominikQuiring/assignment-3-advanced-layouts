@@ -351,6 +351,14 @@ textarea {
     margin-bottom: 30px;
 }
 
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
 textarea {
     height: 348px;
 }
@@ -359,7 +367,7 @@ input[type="submit"] {
     border-radius: 10px;
     border: none;
     background-color: rgb(243, 217, 0);
-    width: 194px;
+    width: 130px;
     height: 59px;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
